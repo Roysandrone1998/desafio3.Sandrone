@@ -63,7 +63,7 @@ class ProductManager {
         (max, producto) => (producto.id > max ? producto.id : max),
         0
         );
-        return maxId + 1;
+        return maxId ++;
     }
 }
 

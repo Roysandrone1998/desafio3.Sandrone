@@ -2,7 +2,7 @@ import express from 'express';
 import ProductManager from './productManager.js';
 
 const app = express();
-const port = 3000;
+const port =3000;
 
 
 const manager = new ProductManager('./Productos.json');
